@@ -1,0 +1,16 @@
+name: AtomParticles
+version: 1.1.0
+main: me.atomp.AtomPlugin
+api-version: '1.21'
+description: Анимации из частиц - атомы и эпичные эффекты
+
+commands:
+  atomp:
+    description: Призвать анимацию из частиц
+    usage: /atomp <время в секундах> [масштаб] [вид]
+    permission: atomp.use
+
+permissions:
+  atomp.use:
+    description: Позволяет использовать /atomp
+    default: op
